@@ -3,7 +3,7 @@ pytest-mozversion
 
 pytest-mozversion is a plugin for `pytest <http://pytest.org>`_ that extracts
 Mozilla application version information metadata and makes it available via
-pytest-metadata.
+`pytest-metadata <https://pypi.python.org/pypi/pytest-metadata/>`_.
 
 .. image:: https://img.shields.io/badge/license-MPL%202.0-blue.svg
    :target: https://github.com/davehunt/pytest-mozversion/blob/master/LICENSE
@@ -42,8 +42,9 @@ Usage
 -----
 
 If you provide a base URL via the pytest-base-url plugin, then
-pytest-mozversion will automatically look for a `__version__` endpoint, and add
-the results to a `version` key within the metadata provided by pytest-metadata.
+pytest-mozversion will automatically look for a ``__version__`` endpoint, and
+add the results to a ``version`` key within the metadata provided by
+`pytest-metadata <https://pypi.python.org/pypi/pytest-metadata/>`_.
 
 Resources
 ---------
